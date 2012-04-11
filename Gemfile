@@ -41,8 +41,8 @@ gem 'jquery-rails'
 group :test do
 
   gem "capybara"
-  gem "cucumber-rails"
-  gem "database_cleaner"
+  #gem "cucumber-rails"
+  #gem "database_cleaner"
   gem "spork"
 end
 

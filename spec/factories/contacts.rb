@@ -4,5 +4,7 @@ FactoryGirl.define do
   factory :contact do
     name "MyString"
     phone "MyString"
+    email "me@me.com"
+    password "secret"
   end
 end
