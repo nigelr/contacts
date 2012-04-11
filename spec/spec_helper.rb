@@ -31,3 +31,12 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
   config.include Devise::TestHelpers, :type => :controller
 end
+
+
+def login
+  contact
+  visit new_contact_session_path
+  fill_in "Email", with: contact.email
+  fill_in "Password", with: "secret"
+  click_button "Sign in"
+end
