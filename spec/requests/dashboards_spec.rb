@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 
-describe "Contacts" do
+describe "Dashboards" do
   let(:contact) { FactoryGirl.create(:contact)}
 
   context "when not logged in" do
